@@ -23,3 +23,23 @@ class ViewController: UIViewController {
 
 }
 
+/*Hi,
+    We hope you had a great time
+trying out KhataBahi Mobile App.
+sadly, your free trail is expired.
+ 
+    Your account has been
+deactivated. But you can still keep
+using it by upagrading your account.
+ 
+    Kindly, Contact our Customer
+ Care Service and reactive your
+ Account:
+ 
+ Website:
+ Email ID:
+ Mobile No:
+ 
+ 
+ */
+

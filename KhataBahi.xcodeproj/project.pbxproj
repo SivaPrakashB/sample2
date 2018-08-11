@@ -7,6 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18267086210313C200E7220C /* BankReceiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18267085210313C200E7220C /* BankReceiveViewController.swift */; };
+		18AF6730211867C50007F6DB /* JournalVoucherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AF672F211867C50007F6DB /* JournalVoucherViewController.swift */; };
+		18B0FE8C21021665009E0ECE /* BankStatementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B0FE8B21021665009E0ECE /* BankStatementViewController.swift */; };
+		18BE0132210C4CBE00510FEC /* addCreateNewLedgerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BE0131210C4CBE00510FEC /* addCreateNewLedgerViewController.swift */; };
+		18C59657210EED0E00EA71E8 /* modelClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C59656210EED0E00EA71E8 /* modelClass.swift */; };
+		18CB541D21130E4900C41ECD /* CashBankDepositViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CB541C21130E4900C41ECD /* CashBankDepositViewController.swift */; };
+		18CBE871211ACD2C0067C49E /* JournalVoucherTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CBE870211ACD2C0067C49E /* JournalVoucherTableViewCell.swift */; };
+		18CBE873211ACE740067C49E /* JournalVoucherNewPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CBE872211ACE740067C49E /* JournalVoucherNewPage.swift */; };
+		18EAF5382112DE76004BAB1C /* CashBankWithdrawViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EAF5372112DE76004BAB1C /* CashBankWithdrawViewController.swift */; };
+		18F351EB21009571006E11AF /* CashReceiptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F351EA21009571006E11AF /* CashReceiptViewController.swift */; };
+		18F4DCF221147C6500CA3DE5 /* ContraVoucherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F4DCF121147C6500CA3DE5 /* ContraVoucherViewController.swift */; };
+		5C5762948DA755CC1412539F /* Pods_KhataBahi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E75D105EE86BA1C589FD2482 /* Pods_KhataBahi.framework */; };
+		8B023CC720908E2F002AB288 /* purchaselistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B023CC620908E2F002AB288 /* purchaselistViewController.swift */; };
+		8B023CC920909A99002AB288 /* purchaseListShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B023CC820909A99002AB288 /* purchaseListShowViewController.swift */; };
+		8B023CCB20909AB6002AB288 /* purchaseWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B023CCA20909AB6002AB288 /* purchaseWebViewController.swift */; };
+		8B023CCD20909AE1002AB288 /* purchaseListShowTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B023CCC20909AE1002AB288 /* purchaseListShowTableViewCell.swift */; };
+		8B0556FF207CD4DA007E3AF6 /* itemCompanyMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0556FE207CD4DA007E3AF6 /* itemCompanyMasterViewController.swift */; };
+		8B055701207CD6BE007E3AF6 /* departMentMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B055700207CD6BE007E3AF6 /* departMentMasterViewController.swift */; };
+		8B055703207CDAD8007E3AF6 /* subDeptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B055702207CDAD8007E3AF6 /* subDeptViewController.swift */; };
+		8B055705207CDB25007E3AF6 /* unitMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B055704207CDB25007E3AF6 /* unitMasterViewController.swift */; };
+		8B078CEE2077ACB0005128B5 /* webViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B078CED2077ACB0005128B5 /* webViewController.swift */; };
+		8B0797B1206CAA52009B99F6 /* multipleCompanyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0797B0206CAA52009B99F6 /* multipleCompanyViewController.swift */; };
+		8B0797B3206D1872009B99F6 /* largePopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0797B2206D1872009B99F6 /* largePopUpViewController.swift */; };
 		8B0F28F120690ABB00A4991A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0F28F020690ABB00A4991A /* AppDelegate.swift */; };
 		8B0F28F320690ABB00A4991A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0F28F220690ABB00A4991A /* ViewController.swift */; };
 		8B0F28F620690ABB00A4991A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B0F28F420690ABB00A4991A /* Main.storyboard */; };
@@ -14,6 +37,52 @@
 		8B0F28FB20690ABB00A4991A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B0F28F920690ABB00A4991A /* LaunchScreen.storyboard */; };
 		8B0F290620690ABB00A4991A /* KhataBahiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0F290520690ABB00A4991A /* KhataBahiTests.swift */; };
 		8B0F291120690ABB00A4991A /* KhataBahiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0F291020690ABB00A4991A /* KhataBahiUITests.swift */; };
+		8B0F291F20690BAE00A4991A /* CheckConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0F291E20690BAE00A4991A /* CheckConnection.swift */; };
+		8B117EBA208EF3A400E58B92 /* saleListWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B117EB9208EF3A400E58B92 /* saleListWebViewController.swift */; };
+		8B117EBC208F1E0900E58B92 /* giphy.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8B117EBB208F1E0900E58B92 /* giphy.gif */; };
+		8B15664F206BBE6C004493E1 /* popUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B15664E206BBE6C004493E1 /* popUpViewController.swift */; };
+		8B1E510720A9995A00F254BA /* multiplePOSNamesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1E510620A9995A00F254BA /* multiplePOSNamesViewController.swift */; };
+		8B2406A620A01DA60049E8E4 /* otpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2406A520A01DA60049E8E4 /* otpViewController.swift */; };
+		8B32F0BA209ADE4B00A166F1 /* subDepartmentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B32F0B9209ADE4B00A166F1 /* subDepartmentTableViewCell.swift */; };
+		8B4554C4206A456600CB6D93 /* signUpPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4554C3206A456600CB6D93 /* signUpPageViewController.swift */; };
+		8B58CA78206DF9F100F09116 /* large2PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B58CA77206DF9F100F09116 /* large2PopUpViewController.swift */; };
+		8B72D87F20AB044F0014C695 /* toListShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B72D87E20AB044F0014C695 /* toListShowViewController.swift */; };
+		8B78C3BA20AAE1C6004C3D59 /* byListShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B78C3B920AAE1C6004C3D59 /* byListShowViewController.swift */; };
+		8B7BA12C2093178900B514DF /* GSTViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7BA12B2093178900B514DF /* GSTViewController.swift */; };
+		8B7BA12E2093424400B514DF /* GstwebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7BA12D2093424400B514DF /* GstwebViewController.swift */; };
+		8B7F03DD2074D1B40082BADF /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 8B7F03DC2074D1B40082BADF /* Podfile */; };
+		8B8299F220736E4A00DF6BBC /* slideCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8299F120736E4A00DF6BBC /* slideCollectionViewCell.swift */; };
+		8B84D9D3207E00620066DC29 /* changeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B84D9D2207E00610066DC29 /* changeViewController.swift */; };
+		8B9C48682088B3A800B52EB7 /* iOSDevCenters+GIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9C48672088B3A800B52EB7 /* iOSDevCenters+GIF.swift */; };
+		8B9C48AE2088C38A00B52EB7 /* abc1234.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8B9C48AD2088C38A00B52EB7 /* abc1234.gif */; };
+		8B9C48B02088C5BE00B52EB7 /* loadingPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9C48AF2088C5BE00B52EB7 /* loadingPageViewController.swift */; };
+		8B9C48B22088CAC800B52EB7 /* load6.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8B9C48B12088CAC800B52EB7 /* load6.gif */; };
+		8BA093DA20AD4CE4000B61CB /* CreateNewLedgerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA093D920AD4CE4000B61CB /* CreateNewLedgerViewController.swift */; };
+		8BA230A720A41A1900B88575 /* feedBackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA230A620A41A1900B88575 /* feedBackViewController.swift */; };
+		8BA230A920A453BC00B88575 /* contactUSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA230A820A453BC00B88575 /* contactUSViewController.swift */; };
+		8BA9421C2096F2D800BA3AC4 /* InvoiceSettingMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA9421B2096F2D800BA3AC4 /* InvoiceSettingMasterViewController.swift */; };
+		8BB3E96220CE52BB005095F0 /* PartyLedgerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB3E96120CE52BB005095F0 /* PartyLedgerViewController.swift */; };
+		8BBD4FFE20A1815E0032FB01 /* notificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBD4FFD20A1815E0032FB01 /* notificationViewController.swift */; };
+		8BBD500020A18E4D0032FB01 /* notificationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBD4FFF20A18E4D0032FB01 /* notificationTableViewCell.swift */; };
+		8BC41416207B8EE3009A27A4 /* forgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC41415207B8EE3009A27A4 /* forgotPasswordViewController.swift */; };
+		8BC8CDC5208DB64F0012254C /* saleListViewShowTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC8CDC4208DB64F0012254C /* saleListViewShowTableViewCell.swift */; };
+		8BCCD42620CFEA4F001DCA52 /* PartyLedgerShowTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCCD42520CFEA4F001DCA52 /* PartyLedgerShowTableViewCell.swift */; };
+		8BD91F44206A642300DD83EB /* logInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD91F43206A642300DD83EB /* logInViewController.swift */; };
+		8BDBB9BA20CFA57100046768 /* PartyLedgerShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDBB9B920CFA57100046768 /* PartyLedgerShowViewController.swift */; };
+		8BDDA6D620721E2600C7BF5F /* tableView1Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDDA6D520721E2600C7BF5F /* tableView1Cell.swift */; };
+		8BDDA6D82072206400C7BF5F /* collectionView1Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDDA6D72072206400C7BF5F /* collectionView1Cell.swift */; };
+		8BE495FB209434BF002D0F60 /* testWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE495FA209434BF002D0F60 /* testWebViewController.swift */; };
+		8BE495FE209468DB002D0F60 /* T&CViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE495FD209468DB002D0F60 /* T&CViewController.swift */; };
+		8BE4D266209C83C10065A0C8 /* companyProfileEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE4D265209C83C10065A0C8 /* companyProfileEditViewController.swift */; };
+		8BE6B6E320A582A400B08CE1 /* PaymentcashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE6B6E220A582A400B08CE1 /* PaymentcashViewController.swift */; };
+		8BE7A266207E0C7F00E812C9 /* changePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE7A265207E0C7F00E812C9 /* changePasswordViewController.swift */; };
+		8BF69DF72091989B00B075E5 /* webView2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF69DF62091989B00B075E5 /* webView2ViewController.swift */; };
+		8BF78ECD2089BBCE00E4A1AA /* changePasswordViewController123.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF78ECC2089BBCE00E4A1AA /* changePasswordViewController123.swift */; };
+		8BF78ECF208A000200E4A1AA /* saleListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF78ECE208A000200E4A1AA /* saleListViewController.swift */; };
+		8BFBA9BD206F552800B6E6EC /* DashBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFBA9BC206F552800B6E6EC /* DashBoardViewController.swift */; };
+		8BFBA9BF206F66CC00B6E6EC /* dashBoardPopUp1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFBA9BE206F66CC00B6E6EC /* dashBoardPopUp1ViewController.swift */; };
+		8BFBA9C1206F7EA400B6E6EC /* logOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFBA9C0206F7EA400B6E6EC /* logOutViewController.swift */; };
+		8BFF10D2208B2DBF009BC123 /* saleListShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFF10D1208B2DBF009BC123 /* saleListShowViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +103,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18267085210313C200E7220C /* BankReceiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankReceiveViewController.swift; sourceTree = "<group>"; };
+		18AF672F211867C50007F6DB /* JournalVoucherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalVoucherViewController.swift; sourceTree = "<group>"; };
+		18B0FE8B21021665009E0ECE /* BankStatementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankStatementViewController.swift; sourceTree = "<group>"; };
+		18BE0131210C4CBE00510FEC /* addCreateNewLedgerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addCreateNewLedgerViewController.swift; sourceTree = "<group>"; };
+		18C59656210EED0E00EA71E8 /* modelClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = modelClass.swift; sourceTree = "<group>"; };
+		18CB541C21130E4900C41ECD /* CashBankDepositViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashBankDepositViewController.swift; sourceTree = "<group>"; };
+		18CBE870211ACD2C0067C49E /* JournalVoucherTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalVoucherTableViewCell.swift; sourceTree = "<group>"; };
+		18CBE872211ACE740067C49E /* JournalVoucherNewPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalVoucherNewPage.swift; sourceTree = "<group>"; };
+		18EAF5372112DE76004BAB1C /* CashBankWithdrawViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashBankWithdrawViewController.swift; sourceTree = "<group>"; };
+		18F351EA21009571006E11AF /* CashReceiptViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashReceiptViewController.swift; sourceTree = "<group>"; };
+		18F4DCF121147C6500CA3DE5 /* ContraVoucherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContraVoucherViewController.swift; sourceTree = "<group>"; };
+		8B023CC620908E2F002AB288 /* purchaselistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = purchaselistViewController.swift; sourceTree = "<group>"; };
+		8B023CC820909A99002AB288 /* purchaseListShowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = purchaseListShowViewController.swift; sourceTree = "<group>"; };
+		8B023CCA20909AB6002AB288 /* purchaseWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = purchaseWebViewController.swift; sourceTree = "<group>"; };
+		8B023CCC20909AE1002AB288 /* purchaseListShowTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = purchaseListShowTableViewCell.swift; sourceTree = "<group>"; };
+		8B0556FE207CD4DA007E3AF6 /* itemCompanyMasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itemCompanyMasterViewController.swift; sourceTree = "<group>"; };
+		8B055700207CD6BE007E3AF6 /* departMentMasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = departMentMasterViewController.swift; sourceTree = "<group>"; };
+		8B055702207CDAD8007E3AF6 /* subDeptViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = subDeptViewController.swift; sourceTree = "<group>"; };
+		8B055704207CDB25007E3AF6 /* unitMasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = unitMasterViewController.swift; sourceTree = "<group>"; };
+		8B078CED2077ACB0005128B5 /* webViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webViewController.swift; sourceTree = "<group>"; };
+		8B0797B0206CAA52009B99F6 /* multipleCompanyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = multipleCompanyViewController.swift; sourceTree = "<group>"; };
+		8B0797B2206D1872009B99F6 /* largePopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = largePopUpViewController.swift; sourceTree = "<group>"; };
 		8B0F28ED20690ABB00A4991A /* KhataBahi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KhataBahi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B0F28F020690ABB00A4991A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8B0F28F220690ABB00A4991A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +138,55 @@
 		8B0F290C20690ABB00A4991A /* KhataBahiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KhataBahiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B0F291020690ABB00A4991A /* KhataBahiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KhataBahiUITests.swift; sourceTree = "<group>"; };
 		8B0F291220690ABB00A4991A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B0F291E20690BAE00A4991A /* CheckConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckConnection.swift; sourceTree = "<group>"; };
+		8B117EB9208EF3A400E58B92 /* saleListWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = saleListWebViewController.swift; sourceTree = "<group>"; };
+		8B117EBB208F1E0900E58B92 /* giphy.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = giphy.gif; sourceTree = "<group>"; };
+		8B15664E206BBE6C004493E1 /* popUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popUpViewController.swift; sourceTree = "<group>"; };
+		8B1E510620A9995A00F254BA /* multiplePOSNamesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = multiplePOSNamesViewController.swift; sourceTree = "<group>"; };
+		8B2406A520A01DA60049E8E4 /* otpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = otpViewController.swift; sourceTree = "<group>"; };
+		8B32F0B9209ADE4B00A166F1 /* subDepartmentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = subDepartmentTableViewCell.swift; sourceTree = "<group>"; };
+		8B4554C3206A456600CB6D93 /* signUpPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signUpPageViewController.swift; sourceTree = "<group>"; };
+		8B58CA77206DF9F100F09116 /* large2PopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = large2PopUpViewController.swift; sourceTree = "<group>"; };
+		8B72D87E20AB044F0014C695 /* toListShowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toListShowViewController.swift; sourceTree = "<group>"; };
+		8B78C3B920AAE1C6004C3D59 /* byListShowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = byListShowViewController.swift; sourceTree = "<group>"; };
+		8B7BA12B2093178900B514DF /* GSTViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GSTViewController.swift; sourceTree = "<group>"; };
+		8B7BA12D2093424400B514DF /* GstwebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GstwebViewController.swift; sourceTree = "<group>"; };
+		8B7F03DC2074D1B40082BADF /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8B8299F120736E4A00DF6BBC /* slideCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = slideCollectionViewCell.swift; sourceTree = "<group>"; };
+		8B84D9D2207E00610066DC29 /* changeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = changeViewController.swift; sourceTree = "<group>"; };
+		8B9C48672088B3A800B52EB7 /* iOSDevCenters+GIF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "iOSDevCenters+GIF.swift"; sourceTree = "<group>"; };
+		8B9C48AD2088C38A00B52EB7 /* abc1234.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = abc1234.gif; sourceTree = "<group>"; };
+		8B9C48AF2088C5BE00B52EB7 /* loadingPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loadingPageViewController.swift; sourceTree = "<group>"; };
+		8B9C48B12088CAC800B52EB7 /* load6.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = load6.gif; sourceTree = "<group>"; };
+		8BA093D920AD4CE4000B61CB /* CreateNewLedgerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewLedgerViewController.swift; sourceTree = "<group>"; };
+		8BA230A620A41A1900B88575 /* feedBackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = feedBackViewController.swift; sourceTree = "<group>"; };
+		8BA230A820A453BC00B88575 /* contactUSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contactUSViewController.swift; sourceTree = "<group>"; };
+		8BA9421B2096F2D800BA3AC4 /* InvoiceSettingMasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvoiceSettingMasterViewController.swift; sourceTree = "<group>"; };
+		8BB3E96120CE52BB005095F0 /* PartyLedgerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyLedgerViewController.swift; sourceTree = "<group>"; };
+		8BBD4FFD20A1815E0032FB01 /* notificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notificationViewController.swift; sourceTree = "<group>"; };
+		8BBD4FFF20A18E4D0032FB01 /* notificationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notificationTableViewCell.swift; sourceTree = "<group>"; };
+		8BC41415207B8EE3009A27A4 /* forgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = forgotPasswordViewController.swift; sourceTree = "<group>"; };
+		8BC8CDC4208DB64F0012254C /* saleListViewShowTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = saleListViewShowTableViewCell.swift; sourceTree = "<group>"; };
+		8BCCD42520CFEA4F001DCA52 /* PartyLedgerShowTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyLedgerShowTableViewCell.swift; sourceTree = "<group>"; };
+		8BD91F43206A642300DD83EB /* logInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logInViewController.swift; sourceTree = "<group>"; };
+		8BDBB9B920CFA57100046768 /* PartyLedgerShowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyLedgerShowViewController.swift; sourceTree = "<group>"; };
+		8BDDA6D520721E2600C7BF5F /* tableView1Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableView1Cell.swift; sourceTree = "<group>"; };
+		8BDDA6D72072206400C7BF5F /* collectionView1Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = collectionView1Cell.swift; sourceTree = "<group>"; };
+		8BE495FA209434BF002D0F60 /* testWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testWebViewController.swift; sourceTree = "<group>"; };
+		8BE495FD209468DB002D0F60 /* T&CViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "T&CViewController.swift"; sourceTree = "<group>"; };
+		8BE4D265209C83C10065A0C8 /* companyProfileEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = companyProfileEditViewController.swift; sourceTree = "<group>"; };
+		8BE6B6E220A582A400B08CE1 /* PaymentcashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentcashViewController.swift; sourceTree = "<group>"; };
+		8BE7A265207E0C7F00E812C9 /* changePasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = changePasswordViewController.swift; sourceTree = "<group>"; };
+		8BF69DF62091989B00B075E5 /* webView2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webView2ViewController.swift; sourceTree = "<group>"; };
+		8BF78ECC2089BBCE00E4A1AA /* changePasswordViewController123.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = changePasswordViewController123.swift; sourceTree = "<group>"; };
+		8BF78ECE208A000200E4A1AA /* saleListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = saleListViewController.swift; sourceTree = "<group>"; };
+		8BFBA9BC206F552800B6E6EC /* DashBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardViewController.swift; sourceTree = "<group>"; };
+		8BFBA9BE206F66CC00B6E6EC /* dashBoardPopUp1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dashBoardPopUp1ViewController.swift; sourceTree = "<group>"; };
+		8BFBA9C0206F7EA400B6E6EC /* logOutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logOutViewController.swift; sourceTree = "<group>"; };
+		8BFF10D1208B2DBF009BC123 /* saleListShowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = saleListShowViewController.swift; sourceTree = "<group>"; };
+		E20D2C2DE15119B1C3EDF8DA /* Pods-KhataBahi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KhataBahi.release.xcconfig"; path = "Pods/Target Support Files/Pods-KhataBahi/Pods-KhataBahi.release.xcconfig"; sourceTree = "<group>"; };
+		E75D105EE86BA1C589FD2482 /* Pods_KhataBahi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KhataBahi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB19A872C23E792C2F5DE839 /* Pods-KhataBahi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KhataBahi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KhataBahi/Pods-KhataBahi.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +194,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C5762948DA755CC1412539F /* Pods_KhataBahi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,13 +215,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B6479AC0CD21592778343D4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FB19A872C23E792C2F5DE839 /* Pods-KhataBahi.debug.xcconfig */,
+				E20D2C2DE15119B1C3EDF8DA /* Pods-KhataBahi.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		498E6FB8248D8E21DB8FD0F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E75D105EE86BA1C589FD2482 /* Pods_KhataBahi.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8B0F28E420690ABB00A4991A = {
 			isa = PBXGroup;
 			children = (
+				8B7F03DC2074D1B40082BADF /* Podfile */,
 				8B0F28EF20690ABB00A4991A /* KhataBahi */,
 				8B0F290420690ABB00A4991A /* KhataBahiTests */,
 				8B0F290F20690ABB00A4991A /* KhataBahiUITests */,
 				8B0F28EE20690ABB00A4991A /* Products */,
+				0B6479AC0CD21592778343D4 /* Pods */,
+				498E6FB8248D8E21DB8FD0F3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +260,77 @@
 			children = (
 				8B0F28F020690ABB00A4991A /* AppDelegate.swift */,
 				8B0F28F220690ABB00A4991A /* ViewController.swift */,
+				8B0F291E20690BAE00A4991A /* CheckConnection.swift */,
 				8B0F28F420690ABB00A4991A /* Main.storyboard */,
-				8B0F28F720690ABB00A4991A /* Assets.xcassets */,
+				8B4554C3206A456600CB6D93 /* signUpPageViewController.swift */,
 				8B0F28F920690ABB00A4991A /* LaunchScreen.storyboard */,
+				8B0F28F720690ABB00A4991A /* Assets.xcassets */,
 				8B0F28FC20690ABB00A4991A /* Info.plist */,
+				8BD91F43206A642300DD83EB /* logInViewController.swift */,
+				8B9C48672088B3A800B52EB7 /* iOSDevCenters+GIF.swift */,
+				8B9C48AD2088C38A00B52EB7 /* abc1234.gif */,
+				8B117EBB208F1E0900E58B92 /* giphy.gif */,
+				8B15664E206BBE6C004493E1 /* popUpViewController.swift */,
+				8B0797B0206CAA52009B99F6 /* multipleCompanyViewController.swift */,
+				8B0797B2206D1872009B99F6 /* largePopUpViewController.swift */,
+				8B58CA77206DF9F100F09116 /* large2PopUpViewController.swift */,
+				8BFBA9BC206F552800B6E6EC /* DashBoardViewController.swift */,
+				8BFBA9BE206F66CC00B6E6EC /* dashBoardPopUp1ViewController.swift */,
+				8BFBA9C0206F7EA400B6E6EC /* logOutViewController.swift */,
+				8B9C48B12088CAC800B52EB7 /* load6.gif */,
+				8BDDA6D520721E2600C7BF5F /* tableView1Cell.swift */,
+				8BDDA6D72072206400C7BF5F /* collectionView1Cell.swift */,
+				8B8299F120736E4A00DF6BBC /* slideCollectionViewCell.swift */,
+				8B078CED2077ACB0005128B5 /* webViewController.swift */,
+				8BC41415207B8EE3009A27A4 /* forgotPasswordViewController.swift */,
+				8B0556FE207CD4DA007E3AF6 /* itemCompanyMasterViewController.swift */,
+				8B055700207CD6BE007E3AF6 /* departMentMasterViewController.swift */,
+				8B055702207CDAD8007E3AF6 /* subDeptViewController.swift */,
+				8B055704207CDB25007E3AF6 /* unitMasterViewController.swift */,
+				8B84D9D2207E00610066DC29 /* changeViewController.swift */,
+				8BE7A265207E0C7F00E812C9 /* changePasswordViewController.swift */,
+				8B9C48AF2088C5BE00B52EB7 /* loadingPageViewController.swift */,
+				8BF78ECC2089BBCE00E4A1AA /* changePasswordViewController123.swift */,
+				8BF78ECE208A000200E4A1AA /* saleListViewController.swift */,
+				8BFF10D1208B2DBF009BC123 /* saleListShowViewController.swift */,
+				8BC8CDC4208DB64F0012254C /* saleListViewShowTableViewCell.swift */,
+				8B117EB9208EF3A400E58B92 /* saleListWebViewController.swift */,
+				8B023CC620908E2F002AB288 /* purchaselistViewController.swift */,
+				8B023CC820909A99002AB288 /* purchaseListShowViewController.swift */,
+				8B023CCA20909AB6002AB288 /* purchaseWebViewController.swift */,
+				8B023CCC20909AE1002AB288 /* purchaseListShowTableViewCell.swift */,
+				8BF69DF62091989B00B075E5 /* webView2ViewController.swift */,
+				8B7BA12B2093178900B514DF /* GSTViewController.swift */,
+				8B7BA12D2093424400B514DF /* GstwebViewController.swift */,
+				8BE495FA209434BF002D0F60 /* testWebViewController.swift */,
+				8BE495FD209468DB002D0F60 /* T&CViewController.swift */,
+				8BA9421B2096F2D800BA3AC4 /* InvoiceSettingMasterViewController.swift */,
+				8B32F0B9209ADE4B00A166F1 /* subDepartmentTableViewCell.swift */,
+				8BE4D265209C83C10065A0C8 /* companyProfileEditViewController.swift */,
+				8B2406A520A01DA60049E8E4 /* otpViewController.swift */,
+				8BBD4FFD20A1815E0032FB01 /* notificationViewController.swift */,
+				8BBD4FFF20A18E4D0032FB01 /* notificationTableViewCell.swift */,
+				8BA230A620A41A1900B88575 /* feedBackViewController.swift */,
+				8BA230A820A453BC00B88575 /* contactUSViewController.swift */,
+				8BE6B6E220A582A400B08CE1 /* PaymentcashViewController.swift */,
+				8B1E510620A9995A00F254BA /* multiplePOSNamesViewController.swift */,
+				8B78C3B920AAE1C6004C3D59 /* byListShowViewController.swift */,
+				8B72D87E20AB044F0014C695 /* toListShowViewController.swift */,
+				8BA093D920AD4CE4000B61CB /* CreateNewLedgerViewController.swift */,
+				8BB3E96120CE52BB005095F0 /* PartyLedgerViewController.swift */,
+				8BDBB9B920CFA57100046768 /* PartyLedgerShowViewController.swift */,
+				8BCCD42520CFEA4F001DCA52 /* PartyLedgerShowTableViewCell.swift */,
+				18F351EA21009571006E11AF /* CashReceiptViewController.swift */,
+				18B0FE8B21021665009E0ECE /* BankStatementViewController.swift */,
+				18267085210313C200E7220C /* BankReceiveViewController.swift */,
+				18BE0131210C4CBE00510FEC /* addCreateNewLedgerViewController.swift */,
+				18C59656210EED0E00EA71E8 /* modelClass.swift */,
+				18EAF5372112DE76004BAB1C /* CashBankWithdrawViewController.swift */,
+				18CB541C21130E4900C41ECD /* CashBankDepositViewController.swift */,
+				18F4DCF121147C6500CA3DE5 /* ContraVoucherViewController.swift */,
+				18AF672F211867C50007F6DB /* JournalVoucherViewController.swift */,
+				18CBE870211ACD2C0067C49E /* JournalVoucherTableViewCell.swift */,
+				18CBE872211ACE740067C49E /* JournalVoucherNewPage.swift */,
 			);
 			path = KhataBahi;
 			sourceTree = "<group>";
@@ -132,9 +360,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8B0F291520690ABB00A4991A /* Build configuration list for PBXNativeTarget "KhataBahi" */;
 			buildPhases = (
+				9DD4C2ACCDE2C1E65813590C /* [CP] Check Pods Manifest.lock */,
 				8B0F28E920690ABB00A4991A /* Sources */,
 				8B0F28EA20690ABB00A4991A /* Frameworks */,
 				8B0F28EB20690ABB00A4991A /* Resources */,
+				F3B02CCC05D073C7A4AA3391 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,8 +462,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B117EBC208F1E0900E58B92 /* giphy.gif in Resources */,
+				8B9C48AE2088C38A00B52EB7 /* abc1234.gif in Resources */,
+				8B9C48B22088CAC800B52EB7 /* load6.gif in Resources */,
 				8B0F28FB20690ABB00A4991A /* LaunchScreen.storyboard in Resources */,
 				8B0F28F820690ABB00A4991A /* Assets.xcassets in Resources */,
+				8B7F03DD2074D1B40082BADF /* Podfile in Resources */,
 				8B0F28F620690ABB00A4991A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,13 +488,118 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9DD4C2ACCDE2C1E65813590C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KhataBahi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3B02CCC05D073C7A4AA3391 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-KhataBahi/Pods-KhataBahi-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AnimatableReload/AnimatableReload.framework",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AnimatableReload.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KhataBahi/Pods-KhataBahi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8B0F28E920690ABB00A4991A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B055703207CDAD8007E3AF6 /* subDeptViewController.swift in Sources */,
+				8BA9421C2096F2D800BA3AC4 /* InvoiceSettingMasterViewController.swift in Sources */,
+				8BE495FE209468DB002D0F60 /* T&CViewController.swift in Sources */,
+				8BDBB9BA20CFA57100046768 /* PartyLedgerShowViewController.swift in Sources */,
+				8B2406A620A01DA60049E8E4 /* otpViewController.swift in Sources */,
+				8B9C48682088B3A800B52EB7 /* iOSDevCenters+GIF.swift in Sources */,
+				8B0F291F20690BAE00A4991A /* CheckConnection.swift in Sources */,
+				8BA093DA20AD4CE4000B61CB /* CreateNewLedgerViewController.swift in Sources */,
+				8B84D9D3207E00620066DC29 /* changeViewController.swift in Sources */,
+				8B8299F220736E4A00DF6BBC /* slideCollectionViewCell.swift in Sources */,
+				8BB3E96220CE52BB005095F0 /* PartyLedgerViewController.swift in Sources */,
 				8B0F28F320690ABB00A4991A /* ViewController.swift in Sources */,
+				18CBE873211ACE740067C49E /* JournalVoucherNewPage.swift in Sources */,
+				8B055705207CDB25007E3AF6 /* unitMasterViewController.swift in Sources */,
+				8BDDA6D82072206400C7BF5F /* collectionView1Cell.swift in Sources */,
+				8BF78ECD2089BBCE00E4A1AA /* changePasswordViewController123.swift in Sources */,
+				18EAF5382112DE76004BAB1C /* CashBankWithdrawViewController.swift in Sources */,
+				8B58CA78206DF9F100F09116 /* large2PopUpViewController.swift in Sources */,
+				8B32F0BA209ADE4B00A166F1 /* subDepartmentTableViewCell.swift in Sources */,
+				8BDDA6D620721E2600C7BF5F /* tableView1Cell.swift in Sources */,
+				8B15664F206BBE6C004493E1 /* popUpViewController.swift in Sources */,
+				18B0FE8C21021665009E0ECE /* BankStatementViewController.swift in Sources */,
+				8BFF10D2208B2DBF009BC123 /* saleListShowViewController.swift in Sources */,
+				18F351EB21009571006E11AF /* CashReceiptViewController.swift in Sources */,
+				8B023CCD20909AE1002AB288 /* purchaseListShowTableViewCell.swift in Sources */,
+				8B9C48B02088C5BE00B52EB7 /* loadingPageViewController.swift in Sources */,
+				8BE495FB209434BF002D0F60 /* testWebViewController.swift in Sources */,
+				8B023CC720908E2F002AB288 /* purchaselistViewController.swift in Sources */,
+				8B72D87F20AB044F0014C695 /* toListShowViewController.swift in Sources */,
+				8BFBA9BF206F66CC00B6E6EC /* dashBoardPopUp1ViewController.swift in Sources */,
+				8BE6B6E320A582A400B08CE1 /* PaymentcashViewController.swift in Sources */,
+				8BA230A920A453BC00B88575 /* contactUSViewController.swift in Sources */,
+				18F4DCF221147C6500CA3DE5 /* ContraVoucherViewController.swift in Sources */,
+				8B0797B1206CAA52009B99F6 /* multipleCompanyViewController.swift in Sources */,
+				18BE0132210C4CBE00510FEC /* addCreateNewLedgerViewController.swift in Sources */,
+				8B117EBA208EF3A400E58B92 /* saleListWebViewController.swift in Sources */,
+				8BBD500020A18E4D0032FB01 /* notificationTableViewCell.swift in Sources */,
+				8BFBA9BD206F552800B6E6EC /* DashBoardViewController.swift in Sources */,
+				8B1E510720A9995A00F254BA /* multiplePOSNamesViewController.swift in Sources */,
+				8B055701207CD6BE007E3AF6 /* departMentMasterViewController.swift in Sources */,
+				8B7BA12E2093424400B514DF /* GstwebViewController.swift in Sources */,
 				8B0F28F120690ABB00A4991A /* AppDelegate.swift in Sources */,
+				8B4554C4206A456600CB6D93 /* signUpPageViewController.swift in Sources */,
+				8B023CC920909A99002AB288 /* purchaseListShowViewController.swift in Sources */,
+				8BA230A720A41A1900B88575 /* feedBackViewController.swift in Sources */,
+				8BD91F44206A642300DD83EB /* logInViewController.swift in Sources */,
+				8BFBA9C1206F7EA400B6E6EC /* logOutViewController.swift in Sources */,
+				8BC41416207B8EE3009A27A4 /* forgotPasswordViewController.swift in Sources */,
+				8B78C3BA20AAE1C6004C3D59 /* byListShowViewController.swift in Sources */,
+				8BC8CDC5208DB64F0012254C /* saleListViewShowTableViewCell.swift in Sources */,
+				8BBD4FFE20A1815E0032FB01 /* notificationViewController.swift in Sources */,
+				8BCCD42620CFEA4F001DCA52 /* PartyLedgerShowTableViewCell.swift in Sources */,
+				18267086210313C200E7220C /* BankReceiveViewController.swift in Sources */,
+				18C59657210EED0E00EA71E8 /* modelClass.swift in Sources */,
+				8BE7A266207E0C7F00E812C9 /* changePasswordViewController.swift in Sources */,
+				8B0556FF207CD4DA007E3AF6 /* itemCompanyMasterViewController.swift in Sources */,
+				8B023CCB20909AB6002AB288 /* purchaseWebViewController.swift in Sources */,
+				8B7BA12C2093178900B514DF /* GSTViewController.swift in Sources */,
+				8BF69DF72091989B00B075E5 /* webView2ViewController.swift in Sources */,
+				8B0797B3206D1872009B99F6 /* largePopUpViewController.swift in Sources */,
+				18CBE871211ACD2C0067C49E /* JournalVoucherTableViewCell.swift in Sources */,
+				18CB541D21130E4900C41ECD /* CashBankDepositViewController.swift in Sources */,
+				8B078CEE2077ACB0005128B5 /* webViewController.swift in Sources */,
+				8BE4D266209C83C10065A0C8 /* companyProfileEditViewController.swift in Sources */,
+				8BF78ECF208A000200E4A1AA /* saleListViewController.swift in Sources */,
+				18AF6730211867C50007F6DB /* JournalVoucherViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,10 +763,13 @@
 		};
 		8B0F291620690ABB00A4991A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB19A872C23E792C2F5DE839 /* Pods-KhataBahi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UUREU9E4TX;
 				INFOPLIST_FILE = KhataBahi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.senovTech.KhataBahi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -438,10 +780,13 @@
 		};
 		8B0F291720690ABB00A4991A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E20D2C2DE15119B1C3EDF8DA /* Pods-KhataBahi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UUREU9E4TX;
 				INFOPLIST_FILE = KhataBahi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.senovTech.KhataBahi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
